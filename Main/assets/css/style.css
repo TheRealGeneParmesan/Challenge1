@@ -1,4 +1,4 @@
-/* GENERAL STYLES */
+/* Styling */
 
 * {
     box-sizing: border-box;
@@ -10,7 +10,18 @@ body {
     background-color: #d9dcd6;
 }
 
-/* HEADER */
+
+/* Font Styles */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*Header Section */
 
 header {
     padding: 20px;
@@ -45,18 +56,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-/* TEXT STYLES */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/* HERO DIV WITH BACKGROUND IMAGE */
+/*Hero DIV & Background img */
 
 .hero {
     height: 800px;
@@ -67,7 +67,7 @@ p {
     background-position: center;
 }
 
-/* FLOATS */
+/*Floats*/
 
 .float-left {
     float: left;
@@ -79,7 +79,7 @@ p {
     margin-left: 25px;
 }
 
-/* MAIN */
+/* Main */
 
 main {
     width: 75%;
@@ -87,9 +87,9 @@ main {
     margin-left: 20px;
 }
 
-/* BENEFITS ASIDE */
+/*Aside (advantages) */
 
-.benefits {
+.advantages {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -100,25 +100,25 @@ main {
     background-color: #2589bd;
 }
 
-.benefit {
+.advantage {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.advantage h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.advantage img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* SERVICES SECTIONS */
+/* Tools provided */
 
-.service {
+.tool {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -127,24 +127,24 @@ main {
     color: #ffffff;
 }
 
-.service img {
+.tool img {
     max-height: 200px;
 }
 
-.service h2 {
+.tool h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* FOOTER */
+/* Footer Section */
 
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
